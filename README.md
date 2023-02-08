@@ -7,7 +7,7 @@ Since I started to learn JavaScript I wanted to make this game, as it's my FAVOU
 ![kittyfinder-hq](https://user-images.githubusercontent.com/112966265/217516319-666e0a61-fce9-49d1-87e7-1c03c5fe3157.gif)
 
 I remember we used to play it a lot at Granny's house on summer afternoons when where not allowed to go to the swimming pool until 2 hours have passed from lunch (and because outside it was pobably 40 degrees, this is Spain).
-Anyway, I love this game and I really wanted to make a try with JavaScript.
+Anyway, I love this game and I really wanted to build it with JavaScript.
 
 ## Don't know how to play?
 
