@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const grid = document.querySelector('.grid');
   const resultDisplay = document.querySelector('#info-result');
   const gameText = document.querySelector('.info-text');
+  const restartBtn = document.querySelector('.restart');
   let cardsChosen = [];
   let cardsChosenId = [];
   let cardsWon = [];
@@ -68,8 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
       card.setAttribute('class', 'card');
       card.addEventListener('click', flipCard);
       grid.appendChild(card);
-      gameText.textContent = 'Start playing!';
     }
+    gameText.textContent = 'Start playing!';
   }
 
   //check for matches
@@ -112,6 +113,21 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(checkForMatch, 500);
     }
   }
+  //restart game
+  function handleRestart() {
+    const card = document.querySelectorAll('.card');
+    for (let i = 0; i < cardArray.length; i++) {
+      const card = document.querySelector('.card');
+      grid.removeChild(card);
+    }
+    cardsWon = [];
+    cardsChosen = [];
+    cardsChosenId = [];
+    resultDisplay.textContent = cardsWon.length;
+    createBoard();
+    gameText.textContent = 'Start playing!';
+  }
 
   createBoard();
+  restartBtn.addEventListener('click', handleRestart);
 });

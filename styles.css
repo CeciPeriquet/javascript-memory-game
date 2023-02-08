@@ -48,6 +48,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5px;
+}
+.restart {
+  all: unset;
+  cursor: pointer;
+  background-color: #c636ea;
+  color: whitesmoke;
+  padding: 6px 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.restart:hover {
+  background-color: whitesmoke;
+  color: #c636ea;
+  border: 1px solid #c636ea;
 }
 .footer {
   width: 100%;
@@ -61,7 +76,7 @@
   align-items: center;
   gap: 10px;
   color: whitesmoke;
-  background-color: #c636ea;
+  background-color: #03989e;
 }
 .copytext {
   display: inline-block;
