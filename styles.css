@@ -49,7 +49,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .footer {
   width: 100%;
   height: 5vh;
@@ -73,3 +72,10 @@
 .myname {
   text-transform: capitalize;
 }
+@media all and (max-width: 768px) {
+  .grid {
+    margin: 0px 20px;
+    width: 400px;
+    height: 500px;
+  }
+} ;
