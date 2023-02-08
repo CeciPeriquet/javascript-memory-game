@@ -37,7 +37,8 @@ I used [this tutorial from freecodecamp](https://www.freecodecamp.org/news/learn
 It's built with HTML5, CSS3 and Vanilla JavaScript.
 
 I'm still not convinced that when two cards match, they go away and leave a blank space (we used to leave them up) so I might change that.
-I'd also like to add a restart button so users don't have to refresh their browser in order to start playing again.
+
+\*Update: I just added a restart button so users don't have to refresh their browser in order to start playing again (I was thinking of it but after your feedback I thought it was kind of urgent so did it).
 
 I had a really nice time bulding it (specially testing it, I really like this game) and learnt a lot.
 
